@@ -802,8 +802,15 @@ input:focus {
         font-size: 1.3em;
     }
 
-    #main-nav ul li {
-      /*  padding: 3.5% 4%;*/
+    body {
+        background-color: #ddd;
+    }
+    #main-content {
+        background-color: #f5f7f7;
+    }
+
+    #main-footer {
+        background-color: #f5f7f7;
     }
 }
 
