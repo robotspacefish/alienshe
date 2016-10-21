@@ -574,6 +574,7 @@ input:focus {
     #main-header {
         background: #ff0000;
         overflow: hidden;
+        position: relative;
     }
 
     #logo {
@@ -586,7 +587,11 @@ input:focus {
     #main-nav {
         width: 65%;
         float: right;
-        margin-top: 2%;
+        /*margin-top: 2%;*/
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
     }
 
     #main-nav ul {
