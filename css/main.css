@@ -700,6 +700,11 @@ input:focus {
         color: #ff0000;
     }
 
+    /* About ============================= */
+    #mission-statement h2, #team h2 {
+        font-size: 2em;
+    }
+
     /* FAQ ============================= */
     #faq-heading {
         font-size: 2em;
