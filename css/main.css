@@ -705,6 +705,47 @@ input:focus {
         font-size: 2em;
     }
 
+    .contact-sidebar {
+        width: 35%;
+        clear: none;
+    }
+
+    #team {
+        width: 64%;
+        float: left;
+        border-right: 1px solid #eee;
+    }
+
+    #team > h2 {
+        margin: 20px 0;
+        text-align: center;
+        border-bottom: none;
+    }
+
+    .team-info {
+        width: 54%;
+        display: inline-block;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .team-member {
+        border-bottom: 1px solid #eee;
+        padding: 20px 0;
+    }
+
+    .team-member:last-child {
+        border: none;
+    }
+
+    .team-name {
+        font-size: 1.4em;
+    }
+
+    .team-title {
+        font-size: 1.2em;
+    }
+
     /* FAQ ============================= */
     #faq-heading {
         font-size: 2em;
