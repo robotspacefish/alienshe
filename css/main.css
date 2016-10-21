@@ -557,6 +557,23 @@ input:focus {
    Modify as content requires.
    ========================================================================== */
 @media screen and (min-width: 480px) {
+    .newsletter {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .newsletter h2 {
+       font-size: 2em;
+    }
+
+    .newsletter-container {
+        margin: 30px auto;
+    }
+
+    .newsletter form {
+        width: 75%;
+        margin: 0 auto;
+    }
 
 }
 
@@ -673,8 +690,22 @@ input:focus {
 
     .newsletter-container {
         margin: 20px 0 0 0;
+   /*     width: 100%;*/
     }
 
+    .newsletter {
+        padding: 10px;
+    }
+
+    .newsletter h2 {
+       font-size: 1.5em;
+    }
+
+    .newsletter form {
+        padding: 0;
+        width: 98%;
+        margin: 0 1%;
+    }
 
     .newsletter-container, .recent-reviews {
         padding-bottom: 20px;
